@@ -1,0 +1,9 @@
+= Mapstuct Test Project
+author: network514
+:hardbreaks:
+
+== Environment
+
+* JDK 1.8
+* Maven
+* Mapstuct : 1.2.0.Final
