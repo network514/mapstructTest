@@ -1,8 +1,12 @@
 package com.example.mapstructTest;
 
-import org.mapstruct.factory.Mappers;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.mapstructTest.dto.CarDto;
+import com.example.mapstructTest.mapper.CarMapper;
+import com.example.mapstructTest.model.Car;
+import com.example.mapstructTest.model.Person;
 
 @SpringBootApplication
 public class DemoApplication {
@@ -10,7 +14,6 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 
-		CarMapper INSTANCE = Mappers.getMapper( CarMapper.class );
 		Car car = new Car();
 		Person driver = new Person();
 		driver.setName("Ryan");

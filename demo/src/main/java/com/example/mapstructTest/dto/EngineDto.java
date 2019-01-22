@@ -1,6 +1,6 @@
-package com.example.mapstructTest;
+package com.example.mapstructTest.dto;
 
-public class Engine {
+public class EngineDto {
 	private String horsePower;
 	private String fuel;
 	public String getHorsePower() {

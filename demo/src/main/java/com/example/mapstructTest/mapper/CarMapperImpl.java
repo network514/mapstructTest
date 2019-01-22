@@ -1,6 +1,13 @@
-package com.example.mapstructTest;
+package com.example.mapstructTest.mapper;
 
 import java.util.ArrayList;
+
+import com.example.mapstructTest.dto.CarDto;
+import com.example.mapstructTest.dto.EngineDto;
+import com.example.mapstructTest.dto.PersonDto;
+import com.example.mapstructTest.model.Car;
+import com.example.mapstructTest.model.Engine;
+import com.example.mapstructTest.model.Person;
 
 public class CarMapperImpl implements CarMapper {
 
@@ -35,7 +42,7 @@ public class CarMapperImpl implements CarMapper {
 
         PersonDto personDto = new PersonDto();
 
-        personDto.setName(person.getName());
+        personDto.setFullName(person.getName());
         personDto.setAge(person.getAge());
 
         return personDto;

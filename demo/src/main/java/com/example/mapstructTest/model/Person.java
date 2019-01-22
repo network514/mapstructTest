@@ -1,4 +1,4 @@
-package com.example.mapstructTest;
+package com.example.mapstructTest.model;
 
 public class Person {
 	String name;

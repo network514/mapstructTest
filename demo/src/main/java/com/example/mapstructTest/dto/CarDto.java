@@ -1,4 +1,4 @@
-package com.example.mapstructTest;
+package com.example.mapstructTest.dto;
 
 import java.util.ArrayList;
 import java.util.List;
